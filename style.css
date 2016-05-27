@@ -13,7 +13,7 @@ header {
 			rgba(0, 0, 0, 0.1),
 			rgba(0, 0, 0, 0.6)
 		), 
-		url("images/hero-1.jpg");
+		url("Images/hero-1.jpg");
 	background-size: cover;
 	width: 80%;
 	height: 80vh;
@@ -28,7 +28,7 @@ header {
 			rgba(0, 0, 0, 0.1),
 			rgba(0, 0, 0, 0.6)
 		), 
-		url("images/hero-1.jpg");
+		url("Images/hero-1.jpg");
 	background-size: cover;
 	width: 80%;
 	height: 35vh;
@@ -133,7 +133,7 @@ header {
 			rgba(213, 255, 211, 0),
 			rgba(213, 255, 211, 0),
 			rgba(0, 0, 0, 0.9)),
-			url("images/can2.jpg");
+			url("Images/can2.jpg");
 }
 #hk {
 	background:
@@ -141,7 +141,7 @@ header {
 			rgba(213, 255, 211, 0),
 			rgba(213, 255, 211, 0),
 			rgba(0, 0, 0, 0.9)),
-			url("images/hk2.jpg");
+			url("Images/hk2.jpg");
 }
 #us {
 	background:
@@ -149,7 +149,7 @@ header {
 			rgba(213, 255, 211, 0),
 			rgba(213, 255, 211, 0),
 			rgba(0, 0, 0, 0.9)),
-			url("images/sea2.jpg");
+			url("Images/sea2.jpg");
 }
 #dr {
 	background:
@@ -157,7 +157,7 @@ header {
 			rgba(213, 255, 211, 0),
 			rgba(213, 255, 211, 0),
 			rgba(0, 0, 0, 0.9)),
-			url("images/dr.jpg");
+			url("Images/dr.jpg");
 }
 #macau {
 	background:
@@ -165,7 +165,7 @@ header {
 			rgba(213, 255, 211, 0),
 			rgba(213, 255, 211, 0),
 			rgba(0, 0, 0, 0.9)),
-			url("images/macau4.jpg");
+			url("Images/macau4.jpg");
 }
 .icon-container {
 	text-align: center;
