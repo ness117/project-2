@@ -12,7 +12,7 @@ header {
 		linear-gradient(
 			rgba(0, 0, 0, 0.1),
 			rgba(0, 0, 0, 0.6)
-		), 
+		),
 		url("Images/hero-1.jpg");
 	background-size: cover;
 	width: 80%;
@@ -27,7 +27,7 @@ header {
 		linear-gradient(
 			rgba(0, 0, 0, 0.1),
 			rgba(0, 0, 0, 0.6)
-		), 
+		),
 		url("Images/hero-1.jpg");
 	background-size: cover;
 	width: 80%;
@@ -112,60 +112,38 @@ header {
 	margin: 0 auto;
 }
 .photo {
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	width: 180px;
-	height: 180px;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 50%;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
 	border: 1px rgb(35, 161, 136) solid;
+}
+.country-name {
+	text-align: center;
+	position: absolute;
+	width: 100%;
 	color: white;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px 0px;
 }
 .photo:hover {
 	transform: scale(1.1);
 	transition: all 0.2s ease-in-out;
 }
 #can {
-	background:
-		linear-gradient(
-			rgba(213, 255, 211, 0),
-			rgba(213, 255, 211, 0),
-			rgba(0, 0, 0, 0.9)),
-			url("Images/can2.jpg");
+	background-image: url("Images/can2.jpg");
 }
 #hk {
-	background:
-		linear-gradient(
-			rgba(213, 255, 211, 0),
-			rgba(213, 255, 211, 0),
-			rgba(0, 0, 0, 0.9)),
-			url("Images/hk2.jpg");
+	background-image: url("Images/hk2.jpg");
 }
 #us {
-	background:
-		linear-gradient(
-			rgba(213, 255, 211, 0),
-			rgba(213, 255, 211, 0),
-			rgba(0, 0, 0, 0.9)),
-			url("Images/sea2.jpg");
+	background-image:	url("Images/sea2.jpg");
 }
 #dr {
-	background:
-		linear-gradient(
-			rgba(213, 255, 211, 0),
-			rgba(213, 255, 211, 0),
-			rgba(0, 0, 0, 0.9)),
-			url("Images/dr.jpg");
+	background-image:	url("Images/dr.jpg");
 }
 #macau {
-	background:
-		linear-gradient(
-			rgba(213, 255, 211, 0),
-			rgba(213, 255, 211, 0),
-			rgba(0, 0, 0, 0.9)),
-			url("Images/macau4.jpg");
+	background-image: url("Images/macau4.jpg");
 }
 .icon-container {
 	text-align: center;
