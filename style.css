@@ -153,7 +153,7 @@ header {
 	padding: 5px 10px;
 	cursor: pointer;
 	color: rgb(35, 161, 136);
-	width: 200px;
+	width: 280px;
 }
 #send-button:hover {
 	background-color: rgb(35, 161, 136);
