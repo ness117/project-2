@@ -21,12 +21,15 @@
 	    		<a href="contact.html"><li class="nav-text">contact</li></a>
 	    	</ul>
 	   	</nav>
-		<div class="article-container">
-      <form action="" method="GET">
-        <input type="email" placeholder="Your email"/>
-        <textarea>Write your message here...</textarea>
+    <div class="form-container">
+      <h2 class="article-para">Questions or comments?</h2>
+      <form id="contact-form" action="" method="GET">
+        <input class="contact-input" type="text" placeholder="Your name"/>
+        <input class="contact-input" type="email" placeholder="Your email"/>
+        <input id="message" type="text" placeholder="Write your message here..."/>
         <input type="submit" id="send-button" value="Send"/>
       </form>
+      <p id="thank-you" class="article-para hide-ty">Thank you! Your message has been sent.</p>
 		</div>
 		<footer>
 			<hr />
